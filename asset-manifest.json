@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rozmaring/static/css/main.36ff5c32.css",
+    "main.js": "/rozmaring/static/js/main.d80de394.js",
+    "static/js/453.8ec944b9.chunk.js": "/rozmaring/static/js/453.8ec944b9.chunk.js",
+    "static/media/pexels-dmitry-zvolskiy-2082087.jpg": "/rozmaring/static/media/pexels-dmitry-zvolskiy-2082087.21ae25826dd228172598.jpg",
+    "static/media/bedpic.jpg": "/rozmaring/static/media/bedpic.dc402ac5716cf8e6d236.jpg",
+    "static/media/bootstrap-icons.woff?": "/rozmaring/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/rozmaring/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/Higuen Serif.otf": "/rozmaring/static/media/Higuen Serif.98720178406c0848a634.otf",
+    "static/media/logo3.png": "/rozmaring/static/media/logo3.c25c4f7c73e1c30bd5a2.png",
+    "index.html": "/rozmaring/index.html",
+    "main.36ff5c32.css.map": "/rozmaring/static/css/main.36ff5c32.css.map",
+    "main.d80de394.js.map": "/rozmaring/static/js/main.d80de394.js.map",
+    "453.8ec944b9.chunk.js.map": "/rozmaring/static/js/453.8ec944b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ff5c32.css",
+    "static/js/main.d80de394.js"
+  ]
+}
