@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f0e8;
+    background-size: cover;
+    font-family: Arial ;
+    
+  }
+
+#navbar{
+    background-color: #f7f0e8;
+    color: #883f39;
+}
+
+.nav-link {
+  color: inherit; /* Inherit the color from parent */
+  text-decoration: none; /* Remove the underline */
+}
+
+#bookbutton{
+    background-color: #f3c1bc;
+}
+
+
+
+  #hero{
+    
+    background-position:center;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+#card{background-color: #f3c1bc;}
+
+#form{background-color: #f3c1bc;}

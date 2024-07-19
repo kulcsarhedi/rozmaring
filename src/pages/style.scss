@@ -1,0 +1,94 @@
+@import './src/components/general.scss';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+    font-family: 'Higuen Elegant Serif';
+    src: url('../fonts/Higuen Serif.otf') format('opentype'); /* Preferred format */
+  }
+  @import './src/components/mixins.scss';
+  
+
+
+body {
+    background-color: $background-color;
+    background-size: cover;
+    font-family: 'Higuen Elegant Serif', serif;
+    color: $everything-beige;
+  }
+  
+  #navbar {
+    background-color: $background-color;
+    color: $everything-beige;
+  }
+  
+  .nav-link {
+    color: inherit; // Inherit the color from parent
+    text-decoration: none; // Remove the underline
+  }
+
+  .nav-link:hover {
+    color: $everything-beige; // Inherit the color from parent
+    
+  }
+
+.nav-toggler{
+    color: $everything-beige;
+}
+  
+  #bookbutton {
+    background-color: $hotpink;
+  }
+  #bookbutton2 {
+    background-color: $lightpink;
+  }
+  
+  
+  #hero {
+    
+    background-position: center;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  #card {
+    background-color: $dark-logo-color;
+  }
+  
+  #form {
+    @include lightbackground;
+  }
+
+#footer{
+    @include pinkbackground
+}
+
+#foot {
+    display: flex;
+    justify-content: space-between;
+   
+    text-align: left;
+  }
+  .footer-text {
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+
+#homehero{
+    @include darkgreenbackground
+}
+
+#homegallery{
+    @include lightbackground
+}
+
+#headertry{
+    @include custom-shape(polygon(30% 0%, 600% 30%, 30% 800%, 0% 30%));
+    @include darkgreenbackground;
+#hero{
+    max-width: 400px;
+}
+}
+  

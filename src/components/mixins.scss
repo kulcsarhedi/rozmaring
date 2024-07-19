@@ -1,0 +1,45 @@
+@mixin lightbackground{
+    background-color: $everything-beige;
+    color: $dark-logo-color;
+
+    h1{
+        color: $light-logo-color;
+    }
+    h2{
+        color: $light-logo-color;
+    }
+}
+
+@mixin darkgreenbackground{
+    background-color: $background-color;
+    color: $everything-beige;
+
+    h1{
+        color: $logo-color;
+    }
+    h2{
+        color: $light-logo-color;
+    }
+}
+
+@mixin pinkbackground{
+    background-color: $lightpink;
+    color: $black;
+
+    h1{
+        color: $light-logo-color;
+    }
+    h2{
+        color: $light-logo-color;
+    }
+}
+
+@mixin custom-shape($clip-path) {
+    
+    img {
+      width: 100%;
+      height: auto;
+      clip-path: $clip-path;
+    overflow: hidden;
+    }
+  }
