@@ -39,10 +39,12 @@ body {
   }
   #bookbutton2 {
     background-color: $lightpink;
-    @include animated-button (blue, blue, blue);
+    
   }
 
- 
+ #newbtn{
+    @include animated-button ($everything-beige, $hotpink, $everything-beige);
+ }
   
   
   #hero {
