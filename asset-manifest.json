@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cf08097.css",
-    "main.js": "/static/js/main.06cd36fc.js",
-    "static/js/453.8ec944b9.chunk.js": "/static/js/453.8ec944b9.chunk.js",
+    "main.css": "/static/css/main.55b5d008.css",
+    "main.js": "/static/js/main.fb5f04ac.js",
     "static/media/pexels-dmitry-zvolskiy-2082087.jpg": "/static/media/pexels-dmitry-zvolskiy-2082087.21ae25826dd228172598.jpg",
-    "static/media/bedpic.jpg": "/static/media/bedpic.dc402ac5716cf8e6d236.jpg",
+    "static/media/szoba_felulrol.jpeg": "/static/media/szoba_felulrol.72c7a8339dc9f27c2c1f.jpeg",
+    "static/media/1reggeli.jpeg": "/static/media/1reggeli.0c653875260d9489568f.jpeg",
+    "static/media/3szoba_sotet.jpeg": "/static/media/3szoba_sotet.22459be5925c3c3f5e3e.jpeg",
+    "static/media/konyhaszekreny.jpeg": "/static/media/konyhaszekreny.6a2100362275ffcac6f5.jpeg",
+    "static/media/konyhapult.jpeg": "/static/media/konyhapult.d0bc1788e58e0ddfa96a.jpeg",
+    "static/media/konyha.jpeg": "/static/media/konyha.b5dc7cc9071f88be7804.jpeg",
+    "static/media/kislampa.jpeg": "/static/media/kislampa.113449cc7eb5f8f77f0e.jpeg",
+    "static/media/zurdo_minden.jpeg": "/static/media/zurdo_minden.3d6c3fcfd230ed777a7e.jpeg",
+    "static/media/kave_nagy.jpeg": "/static/media/kave_nagy.69acae80ec70b559a558.jpeg",
+    "static/media/2kislampa_agy.jpeg": "/static/media/2kislampa_agy.9991fb76018b24ed5380.jpeg",
+    "static/media/5kave_terkep.jpeg": "/static/media/5kave_terkep.a5ee34c27fe086b4e123.jpeg",
+    "static/media/furdo_zuhany.jpeg": "/static/media/furdo_zuhany.cc33df09f9843579eeac.jpeg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/4konyhapult_tanulas.jpeg": "/static/media/4konyhapult_tanulas.6401e9039d3ba22bb0bc.jpeg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/Higuen Serif.otf": "/static/media/Higuen Serif.98720178406c0848a634.otf",
-    "static/media/logo3.png": "/static/media/logo3.c25c4f7c73e1c30bd5a2.png",
+    "static/media/logo3-removebg-preview.png": "/static/media/logo3-removebg-preview.75066cab3a741f3bf72b.png",
     "index.html": "/index.html",
-    "main.9cf08097.css.map": "/static/css/main.9cf08097.css.map",
-    "main.06cd36fc.js.map": "/static/js/main.06cd36fc.js.map",
-    "453.8ec944b9.chunk.js.map": "/static/js/453.8ec944b9.chunk.js.map"
+    "main.55b5d008.css.map": "/static/css/main.55b5d008.css.map",
+    "main.fb5f04ac.js.map": "/static/js/main.fb5f04ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cf08097.css",
-    "static/js/main.06cd36fc.js"
+    "static/css/main.55b5d008.css",
+    "static/js/main.fb5f04ac.js"
   ]
 }
