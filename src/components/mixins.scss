@@ -22,6 +22,18 @@
     }
 }
 
+@mixin lightgreenbackground{
+    background-color: $mid-logo-color;
+    color: $everything-beige;
+
+    h1{
+        color: $everything-beige;
+    }
+    h2{
+        color: $everything-beige;
+    }
+}
+
 @mixin pinkbackground{
     background-color: $lightpink;
     color: $black;
@@ -43,3 +55,40 @@
     overflow: hidden;
     }
   }
+
+  @mixin animated-button ($border-color, $background-color, $text-color) {
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    border: none;
+    border: 2px solid $border-color;
+    color: $text-color;
+    background: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 17px;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      height: 0%;
+      width: 100%;
+      background-color: $background-color;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all 0.5s;
+    }
+  
+    &:hover {
+      color: #fff;
+      z-index: 999;
+  
+      &::before {
+        height: 100%;
+      }
+    }
+  }
+  

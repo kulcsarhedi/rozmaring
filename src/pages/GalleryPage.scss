@@ -1,0 +1,58 @@
+/* Ensure images take up full width of their container */
+@import './src/components/general.scss';
+
+#navbarrrr {
+    background-color: $background-color;
+    color: $dark-logo-color;
+  }
+
+.img-fluid {
+    position: relative; /* Necessary for absolute positioning of the overlay */
+    overflow: hidden; /* Prevents overlay from spilling out of the image */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Overlay effect on hover */
+  .img-fluid::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+    opacity: 200;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+  }
+  
+  /* Apply scaling effect on hover */
+  .img-fluid:hover {
+    transform: scale(1.05); /* Slightly larger image on hover */
+  }
+  
+  /* Show overlay on hover */
+  .img-fluid:hover::after {
+    opacity: 7; /* Make overlay visible */
+  }
+  
+ #gallery{
+    background-color: $everything-beige2;
+    color: $dark-logo-color;
+  }
+
+
+
+  .img-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%; /* Aspect ratio 4:3 */
+  }
+  
+ 

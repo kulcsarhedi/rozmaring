@@ -1,0 +1,83 @@
+@import './src/components/general.scss';
+@import './src/components/mixins.scss';
+
+#contactinfocard, #formcard, #gettintherecard{
+    @include lightgreenbackground;
+}
+
+@media (max-width: 800px) {
+    #formcarddiv {
+      margin-bottom: 20px; // Add margin-bottom for small screens
+      
+    }}
+
+
+
+
+#contactsection {
+    .container {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      border: none;
+  
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        border: none;
+  
+        .col-md-6 {
+          flex: 0 0 50%;
+          max-width: 50%;
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-bottom: 20px;
+          border: none;
+  
+          @media (max-width: 600px) {
+            max-width: 100%;
+            flex: 0 0 100%;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+  #contactinfocard, #formcarddiv, #gettintherecard {
+    background: $mid-logo-color;
+    border-radius: 3rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  
+    h2, h1 {
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  
+    button {
+      margin-top: 1rem;
+    }
+  }
+  
+  .map-container {
+    .map-frame {
+      border-radius: 1rem;
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+  }
+  
+  #formcarddiv,
+  #formcard,
+  .card {
+    border: none ; /* Use !important as a last resort */
+  }

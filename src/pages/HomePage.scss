@@ -3,3 +3,68 @@
 h1{
     color: $logo-color;
 }
+
+#navbarr {
+    background: none;
+    color: $everything-beige;
+  }
+
+  #homehero{
+    //@include darkgreenbackground
+    
+    height: 100vh; // 100% of the viewport height
+    width: 100vw;  // 100% of the viewport width (optional if you want full width as well)
+
+  // Optional: Set a background image
+  background-image: url("../pictures/kislampa.jpeg");
+  background-size: cover; // Scale the image to cover the container
+  background-position:  center ; 
+  background-repeat: no-repeat;
+}
+
+/* Home gallery section */
+#homegallery {
+    padding: 5rem; // Adjust as needed
+  }
+  
+  #homegallery h1 {
+    margin-bottom: 5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  /* Ensure the images cover the entire card while maintaining aspect ratio */
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 500px; // Adjust the height as needed
+    object-fit: cover; // Ensures the image covers the area without stretching
+  }
+  
+  /* Ensure consistent card dimensions */
+  .card-body {
+    flex: 1;
+  }
+  
+  /* Adjust the card size and spacing */
+  .col-lg-4, .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100%; // Full width of the column
+    max-width: 100%; // Ensure it doesn’t overflow
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; // Adjust as needed
+  }
+  

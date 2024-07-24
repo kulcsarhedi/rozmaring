@@ -3,58 +3,55 @@
 import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import bedpic from './bedpic.jpg';
+
+import bedpic from '../pictures/2kislampa_agy.jpeg';
 import './HomePage.scss';
-import galleryImage1 from './pexels-dmitry-zvolskiy-2082087.jpg'; // Adjust the path according to your directory structure
-import galleryImage2 from './pexels-dmitry-zvolskiy-2082087.jpg'; // Adjust the path according to your directory structure
-import galleryImage3 from './pexels-dmitry-zvolskiy-2082087.jpg'; // Adjust the path according to your directory structure
+import galleryImage1 from '../pictures/konyha.jpeg'; // Adjust the path according to your directory structure
+import galleryImage2 from '../pictures/4konyhapult_tanulas.jpeg'; // Adjust the path according to your directory structure
+import galleryImage3 from '../pictures/furdo_zuhany.jpeg'; // Adjust the path according to your directory structure
+
+
+
+import Navbar from '../components/navbar.js';
 
 
 
 const Home = () => {
     return (
         <div>
-            {/* Navbar 
-            <nav id="navbar" className="navbar navbar-expand-lg">
-                <div className="ms-5">
-                    <a className="navbar-brand" href="#">
-                        <img src= {logo} alt="" width="140" height="140"  />
-                    </a>
-                </div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
-                        <li className="nav-item active me-3">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item me-3">
-                            <a className="nav-link" href="#About">About</a>
-                        </li>
-                        <li className="nav-item me-3">
-                            <a className="nav-link" href="#Services">Services</a>
-                        </li>
-                        <li className="nav-item me-3">
-                            <a className="nav-link" href="#form">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> */}
-
+            
 {/* Hero section */}
-<section id="homehero" >
-<div  className="container mt-5 py-5">
+<section id="homehero">
+<Navbar />
+<div  className="container mt-5 py-5 pb-5">
     <div className="row align-items-center">
-        <section id="hero" className="col-lg-8 py-3 text-center">
-            <h1 className="fw-bold">Welcome to Rozmaring!</h1>
-            <p className="mx-5 my-3 mt-5">This is prime space! Use it to elaborate on your attention-grabbing section title. Explain what this section is about, share some details, and give just the right amount.</p>
+        <section id="hero" className=" py-3 text-center">
+        <p className="mx-5 my-3 mt-5">WELCOME TO</p>
+            <h1 className="fw-bold">Rozmaring</h1>
+            <p className="mx-5 my-3 mt-3">HOME TO STAY</p>
             <div className="d-flex flex-column align-items-center">
-                <button id="bookbutton" className="btn mt-5 mb-3 mx-3 px-4 hover btn-white ">Book now</button>
-                <button id="bookbutton2" className="btn mt-3 mb-3 hover btn-outline-secondary">Contact</button>
+                <button id="newbtn" class="mx-5 my-5 mt-5">Book</button>
+
             </div>
         </section>
-        <div className="col-lg-4">
+        
+    </div>
+</div>
+</section>
+
+{/* Header try */}
+<section id="headertry" >
+<div  className="container mt-5 py-5">
+    <div className="row align-items-center">
+        <section id="hero" className=" container col-lg-5 py-3 text-center ">
+            <h1 className="fw-bold">Welcome to
+your luxurious
+home away
+from home</h1>
+            <p className="mx-5 my-3 mt-5">This is prime space! Use it to elaborate on your attention-grabbing section title. Explain what this section is about, share some details, and give just the right amount.</p>
+        </section>
+
+        <div className="col-lg-6">
             <img src={bedpic} className="img-fluid mx-2 rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy"></img>
         </div>
     </div>
@@ -62,7 +59,7 @@ const Home = () => {
 </section>
 
 {/* Home gallery section */}
-<section id="homegallery" className=" my-5 px-5 py-5">
+<section id="homegallery" className="  px-5 py-5">
 <h1 className="text-center py-5 mb-5 fw-bold">Gallery</h1>
         <p className="text-center mb-5">Discover our beautiful gallery showcasing the charm of our weekend home and its surroundings.</p>
         <div className="row">
@@ -94,8 +91,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        
         <div className="d-flex flex-column align-items-center">
-                <button id="bookbutton" className="btn mt-5 mb-3 mx-3 px-4 hover btn-white " src="/GalleryPage">See more</button>
+                <button id="newbtn" className="btn mt-5 mb-3 mx-3 px-4 hover btn-white " src="/GalleryPage">More</button>
         </div>          
 </section>
 
@@ -115,7 +114,7 @@ const Home = () => {
                             </svg>
                             <h3 className="mb-5">Contact us if you have questions!</h3>
                             <p className="mb-2">Don't lose track of your dream weekend home in Esztergom! Save or bookmark this page for future reference and plan your escape.</p>
-                            <button className="btn mt-3 btn-dark">Save</button>
+                            <button id="newbtn" className="btn mt-3 btn-dark">Save</button>
                         </div>
 
                         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-5">
@@ -125,7 +124,7 @@ const Home = () => {
                             </svg>
                             <h3 className="mb-5">Book your stay with us!</h3>
                             <p className="mb-2">Ready to experience Esztergom's charm? Secure your stay at our weekend home near the Bazilika. Your unforgettable getaway is just a click away.</p>
-                            <button className="btn hover mt-3 btn-dark">Book</button>
+                            <button id="newbtn" className="btn hover mt-3 btn-dark">Book</button>
                         </div>
                     </div>
                 </div>
@@ -155,24 +154,10 @@ const Home = () => {
                 </form>
             </div>*/}
 
-{/* Header try */}
-<section id="headertry" >
-<div  className="container mt-5 py-5">
-    <div className="row align-items-center">
-        <section id="hero" className=" container col-lg-5 py-3 text-center ">
-            <h1 className="fw-bold">Welcome to
-your luxurious
-home away
-from home</h1>
-            <p className="mx-5 my-3 mt-5">This is prime space! Use it to elaborate on your attention-grabbing section title. Explain what this section is about, share some details, and give just the right amount.</p>
-        </section>
 
-        <div className="col-lg-6">
-            <img src={bedpic} className="img-fluid mx-2 rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy"></img>
-        </div>
-    </div>
-</div>
-</section>
+
+
+
 
 
 

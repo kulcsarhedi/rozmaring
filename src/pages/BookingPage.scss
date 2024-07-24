@@ -1,0 +1,53 @@
+@import './src/components/general.scss';
+@import './src/components/mixins.scss';
+
+
+#navbarrr {
+    background-color: $background-color;
+    color: $everything-beige;
+  }
+
+#jumbo{
+    background-image: url("../pictures/kave_nagy.jpeg");
+    background-size:cover; // Scale the image to cover the container
+  background-position:top; 
+  background-repeat: no-repeat;
+  color: $lightpink;
+  h1{
+    color: $lightpink;
+  }
+}
+
+#bookingsection {
+    background-color: $background-color;
+    color: $dark-logo-color;
+  }
+
+ #bookingcard1, #bookingcard3 {
+    
+    background-color: $lighter-background-color;
+    color: $everything-beige;
+
+
+    border: none;
+
+    p{
+        color: $everything-beige;
+    }
+ }
+
+ #bookingcard2 {
+    
+    background-color: $lightpink;
+    color: $everything-beige;
+
+
+    border: none;
+
+    p{
+        color: $everything-beige;
+    }
+ }
+
+ 
+ 

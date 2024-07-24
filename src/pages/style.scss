@@ -19,6 +19,8 @@ body {
     background-color: $background-color;
     color: $everything-beige;
   }
+
+
   
   .nav-link {
     color: inherit; // Inherit the color from parent
@@ -43,28 +45,52 @@ body {
   }
 
  #newbtn{
-    @include animated-button ($everything-beige, $hotpink, $everything-beige);
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    border: 2px solid $hotpink;
+    color: $everything-beige;
+    background-color: $hotpink;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 17px;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      height: 0%;
+      width: 100%;
+      background: none;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all 0.5s;
+    }
+  
+    &:hover {
+      color: $everything-beige;
+      z-index: 999;
+      border: 2px solid $everything-beige;
+      background: none;
+  
+      &::before {
+        height: 100%;
+        
+      }
+    }
  }
   
   
-  #hero {
-    
-    background-position: center;
-    background-position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-
-  }
+ 
   
   #card {
     background-color: $dark-logo-color;
   }
   
-  #form {
-    @include lightbackground;
-  }
+ 
 
 #footer{
     @include pinkbackground
@@ -81,9 +107,7 @@ body {
   }
 
 
-#homehero{
-    @include darkgreenbackground
-}
+
 
 #homegallery{
     @include lightbackground
@@ -97,3 +121,7 @@ body {
 }
 }
   
+#navbarr {
+    
+    color: $everything-beige;
+  }
