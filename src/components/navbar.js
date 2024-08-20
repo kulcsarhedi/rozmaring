@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logo from '../pages/logo3-removebg-preview.png';
-import logo2 from '../pages/Névtelen-removebg-preview.png'; // New logo import
+import logo2 from '../pages/singlelogo-removebg-preview.png'; // New logo import
 import '../App.css'; // Assuming you have some global styles
 import '../pages/style.scss'; // Assuming you have some SCSS styles
 import LanguageSwitcher from '../components/LanguageSwitcher';
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div id="logos" className=" ms-5">
         <a className="navbar-brand" href="/#">
           <img className="logo" src={logo} alt="Logo" width="300" height="110" />
-          <img className="logo2" src={logo2} alt="Logo" width="60" height="60 " />
+          <img className="logo2" src={logo2} alt="Logo2" width="60" height="60 " />
         </a>
       </div>
       <button
