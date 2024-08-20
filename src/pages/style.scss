@@ -13,18 +13,23 @@ body {
     background-size: cover;
     font-family: 'Higuen Elegant Serif', serif;
     color: $everything-beige;
+    overflow-x: hidden; // Prevent horizontal scrolling
   }
   
   #navbar {
     background-color: $background-color;
     color: $everything-beige;
-  }
+    margin-left: auto;
+ 
+ }
 
+ .navbar-collapse{justify-content: center;}
 
   
   .nav-link {
     color: inherit; // Inherit the color from parent
     text-decoration: none; // Remove the underline
+    padding-left: 23px;
   }
 
   .nav-link:hover {
@@ -36,13 +41,7 @@ body {
     color: $everything-beige;
 }
   
-  #bookbutton {
-    background-color: $hotpink;
-  }
-  #bookbutton2 {
-    background-color: $lightpink;
-    
-  }
+ 
 
  #newbtn{
     height: 50px;
@@ -110,18 +109,114 @@ body {
 
 
 #homegallery{
-    @include lightbackground
+    @include lightbackground;
+
+   
+      
+    
 }
 
-#headertry{
-    @include custom-shape(polygon(30% 0%, 600% 30%, 30% 800%, 0% 30%));
-    @include darkgreenbackground;
-#hero{
-    max-width: 400px;
-}
-}
+
   
 #navbarr {
     
     color: $everything-beige;
   }
+
+  #newbtnHome{
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    border: 2px solid $hotpink;
+    color: $dark-logo-color;
+    background-color: $hotpink;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 17px;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      height: 0%;
+      width: 100%;
+      background: none;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all 0.5s;
+    }
+  
+    &:hover {
+      color: $everything-beige;
+      z-index: 999;
+      border: 2px solid $lightpink;
+      background: $lightpink;
+  
+      &::before {
+        height: 100%;
+        
+      }
+    }
+ };
+
+ #langbtn{
+  height: 42px;
+  width: 67px;
+  cursor: pointer;
+  border: none;
+  border: none;
+  color: $everything-beige;
+  background-color: rgba(235, 218, 218, 0.5);
+  
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  font-size: 17px;
+  margin-right: 17px;
+  margin-left: 17px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background: none;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+
+  &:hover {
+    color: $everything-beige;
+    background: $hotpink;
+    z-index: 999;
+    border: 2px solid $hotpink;
+    
+
+    &::before {
+      height: 100%;
+      
+    }
+  }
+}
+
+.logo2 {
+  display: none; /* Hide the second logo by default */
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none; /* Hide the first logo on small screens */
+  }
+
+  .logo2 {
+    display: block; /* Show the second logo on small screens */
+    margin-top: 29px;
+  }
+}
+

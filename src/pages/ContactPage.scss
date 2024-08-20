@@ -81,3 +81,44 @@
   .card {
     border: none ; /* Use !important as a last resort */
   }
+
+  // ContactPage.scss
+
+/* Custom styles for the modal */
+.modal-content {
+  border-radius: 0.5rem; // Adjust border radius
+  background-color: #f8f9fa; // Custom background color
+  border: 1px solid #dee2e6; // Custom border color
+  justify-content: center;
+}
+
+.modal-header {
+
+  color: #495057; // Header text color
+  justify-content: center;
+}
+
+.modal-title {
+  font-size: 1.5rem; // Adjust title font size
+  justify-content: center;
+}
+
+.modal-body {
+  font-size: 1.2rem; // Adjust body font size
+  color: #495057; // Body text color
+  justify-content: center;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6; // Custom footer border color
+}
+
+.btn-secondary {
+  background-color: $hotpink; // Button background color
+  border: none; // Remove button border
+  color: #fff; // Button text color
+}
+
+.btn-secondary:hover {
+  background-color: $lightpink // Button hover color
+}

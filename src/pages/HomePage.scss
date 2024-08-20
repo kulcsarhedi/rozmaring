@@ -1,70 +1,100 @@
 @import './src/components/general.scss';
-
-h1{
-    color: $logo-color;
-}
+@import './src/components/mixins.scss';
 
 #navbarr {
     background: none;
-    color: $everything-beige;
-  }
-
-  #homehero{
-    //@include darkgreenbackground
-    
-    height: 100vh; // 100% of the viewport height
-    width: 100vw;  // 100% of the viewport width (optional if you want full width as well)
-
-  // Optional: Set a background image
-  background-image: url("../pictures/kislampa.jpeg");
-  background-size: cover; // Scale the image to cover the container
-  background-position:  center ; 
-  background-repeat: no-repeat;
+    color: $everything-beige; // Ensure this variable is defined
 }
 
-/* Home gallery section */
-#homegallery {
-    padding: 5rem; // Adjust as needed
-  }
-  
-  #homegallery h1 {
-    margin-bottom: 5rem;
-    font-weight: bold;
-  }
-  
-  
-  
-  /* Ensure the images cover the entire card while maintaining aspect ratio */
-  .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+#homehero {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden; // Ensure that the blurred background doesn't overflow
+
+    // Use a pseudo-element to apply the blurred background
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../pictures/kislampa.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(2.5px); // Adjust the blur amount here
+        z-index: 1;
+    }
+
+    // Ensure that the content is above the blurred background
+    > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        color: $mid-logo-color; // Ensure this variable is defined
+        font-size: 4.5rem;
+
+        @media (min-width: 600px) {
+            font-size: 5rem;
+        }
+
+        @media (min-width: 750px) {
+            font-size: 5.8rem;
+        }
+
+        @media (min-width: 900px) {
+            font-size: 6.1rem;
+        }
+
+        @media (min-width: 1000px) {
+            font-size: 6.8rem;
+        }
+    }
+
+    p {
+        font-size: 1.2rem;
+
+        @media (min-width: 700px) {
+            font-size: 1.5rem;
+        }
+    }
+
     
-  }
-  
-  .card-img-top {
-    width: 100%;
-    height: 500px; // Adjust the height as needed
-    object-fit: cover; // Ensures the image covers the area without stretching
-  }
-  
-  /* Ensure consistent card dimensions */
-  .card-body {
-    flex: 1;
-  }
-  
-  /* Adjust the card size and spacing */
-  .col-lg-4, .col-md-6 {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .card {
-    width: 100%; // Full width of the column
-    max-width: 100%; // Ensure it doesn’t overflow
-  }
-  
-  .mb-4 {
-    margin-bottom: 1.5rem; // Adjust as needed
-  }
-  
+}
+
+#text {
+    // Default styles for #text can be added here
+
+    @media (min-width: 700px) {
+        padding-top: 20px;   /* Proper unit for padding-top */
+             /* Proper unit for margin-top */
+    }
+}
+
+
+
+
+#headertry {
+    @include custom-shape(polygon(30% 0%, 600% 30%, 30% 800%, 0% 30%)); // Ensure this mixin is defined
+    background-color: $background-color; // Ensure this variable is defined
+    color: $logo-color; // Ensure this variable is defined
+
+    #hero {
+        max-width: 400px;
+        color: $logo-color; // Ensure this variable is defined
+
+        h1 {
+            color: $logo-color; // Ensure this variable is defined
+        }
+
+        p {
+            color: $logo-color; // Ensure this variable is defined
+        }
+    }
+}
+
+/* Other sections */

@@ -21,13 +21,16 @@
 #bookingsection {
     background-color: $background-color;
     color: $dark-logo-color;
+    
   }
 
  #bookingcard1, #bookingcard3 {
     
     background-color: $lighter-background-color;
     color: $everything-beige;
-
+    flex-direction: column; /* Ensure they stack vertically on small screens */
+    align-items: stretch;
+    display: flex;
 
     border: none;
 
@@ -39,15 +42,103 @@
  #bookingcard2 {
     
     background-color: $lightpink;
-    color: $everything-beige;
+    color: $mid-logo-color;
 
-
+    flex-direction: column; /* Ensure they stack vertically on small screens */
+    align-items: stretch;
     border: none;
 
     p{
-        color: $everything-beige;
+        color: $darktext;
+       
     }
  }
 
- 
- 
+
+
+.galleryContainer {
+    display: flex;
+    justify-content: center; /* Center the gallery container */
+    width: 100%; /* Allow the container to take the full width of the screen */
+    border-radius: 8px;
+  }
+  
+  .gallery {
+    max-width: 800px; /* Maximum width for the gallery container */
+    width: 100%; /* Ensure the gallery fills its container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content inside the gallery */
+    border-radius: 8px;
+    
+  }
+  
+  .topImage {
+    width: 100%; /* Ensure the top image takes the full width of the gallery */
+    img {
+      width: 100%; /* The top image takes full width of the gallery */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px;
+    }
+
+    &:hover {
+        transform: scale(1.05); /* Slightly increase the size */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+      }
+  }
+  
+  .bottomImages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Make sure the bottom images fill the gallery width */
+    margin-top: 10px; /* Padding between the top image and bottom row */
+  
+    img {
+      width: calc(50% - 5px); /* Each image takes half the gallery width minus padding */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px;
+
+      &:hover {
+        transform: scale(1.05); /* Slightly increase the size */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+      }
+    }
+
+    
+  }
+  
+
+
+  .row {
+    display: flex; /* Ensure flexbox layout for the row */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .col-md-8, .col-md-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #smallcards {
+    background-color: $everything-beige;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+  
+    &:hover {
+      transform: scale(1.05); /* Slightly increase the size */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    }
+  }
+  
+  .card-body {
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-10px); /* Lift the content slightly upwards on hover */
+    }
+  }
+  
+  .wrap-service1-box {
+    margin-bottom: 30px; /* Additional spacing between cards */
+  }
+  

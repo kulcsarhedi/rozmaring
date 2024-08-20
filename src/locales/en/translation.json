@@ -1,0 +1,134 @@
+{
+  "Home":  {
+  "welcome": "WELCOME TO",
+  "goodbye": "HOME TO STAY",
+
+  "Headertry": {
+    "h1": "Welcome to your cozy home away from home",
+    "p": "Our family-owned weekend home for rent, just steps away from the majestic Bazilika. Our quaint rental offers a cozy retreat in this historic town, where rich traditions meet modern comfort."
+  },
+
+  "Gallery": {
+    "h1": "Gallery",
+    "p": "Discover our beautiful gallery showcasing the charm of our weekend home and its surroundings.",
+  
+    "bedroomtitle": "Bedroom",
+    "bedroomtext": "Comfortable bedroom for a restful night.",
+
+    "kitchentitle": "Kitchen",
+    "kitchentext": "Kitchen nook perfect for looking at recipes.",
+
+    "bathtitle": "Bathroom",
+    "bathtext": "Both bold and calming tones while taking a shower."
+
+  },
+
+  "Connect": {
+    "h1": "Let's connect !",
+    
+    "card1title": "Contact us if you have questions!",
+    "card1text": "Don't lose track of your dream weekend home in Esztergom! Just ask us if you have a question and plan your escape.",
+
+    "card2title": "Book your stay with us!",
+    "card2text": "Ready to experience Esztergom's charm? Secure your stay at our weekend home near the Bazilika. Your unforgettable getaway awaits."
+
+    
+  }
+  
+  },
+  
+ 
+
+
+"Button":  {
+  "book": "Book",
+  "more": "More",
+  "contact": "Contact",
+  "send": "Send",
+  "map": "Map",
+  "close": "Close"
+  
+},
+
+"Modal": {
+  "title": "Thanks for reaching out!",
+  "success": "We got your message! In a short time we'll get back to you!",
+  "fail": "Failed to send message. :( Please try again later."
+},
+
+"Nav":  {
+  "home": "Home",
+  "gallery": "Gallery",
+  "booking": "Booking",
+  "contact": "Contact"
+  
+},
+
+"Footer":  {
+  "text": "Experience the blend of comfort and adventure in your home away from home!",
+  "address": "Rozetti lazar diak street 2,",
+  "copy": "Copyright"
+  
+},
+
+"Booking":  {
+  "h1": "We can not wait to welcome you home!",
+
+  "Card1":  {
+  "title": "Whole Apartment",
+  "from": "From",
+  "price": "50 Euro /night",
+  "text": "The 1-bedroom apartment features a living room, a fully equipped kitchen with an oven microwave, and a private bathroom. Towels and bed linen are included. The apartment has a private entrance and free Wi-Fi."
+},
+
+"Card2":  {
+  "title": "About",
+  "text": "Discover a hidden gem in the heart of Esztergom, Hungary – our family-owned weekend home for rent, just steps away from the majestic Bazilika. Our quaint rental offers a cozy retreat in this historic town, where rich traditions meet modern comfort. We take pride in providing a warm, personal touch to your stay. Whether you're here to explore the cultural wonders or simply unwind by the River Danube, we're here to make your visit exceptional. Experience Esztergom like a local in your home away from home."
+},
+
+"Card3":  {
+  "title1": "Great location",
+  "text1": "Just a 5-minute walk from the stunning Esztergom Basilica, with easy access to dining options.",
+  "title2": "Quiet Retreat",
+  "text2": "Located in a tranquil neighborhood, ideal for relaxation and privacy.",
+  "title3": "Modern Aesthetic",
+  "text3": "Sleek and contemporary styling and furniture with cutting-edge features."
+
+
+}
+
+},
+
+"Contact":  {
+  
+
+  "Card1":  {
+  "title": "Contact information",
+  "text1": "Apartment Manager:",
+  "text2": "Eva Kecskes",
+  "text3": "Phone number:"
+},
+
+"Card2":  {
+  "title": "Write us a message!",
+  "text1": "Your e-mail address",
+  "text2": "Your name",
+  "text3": "Message"
+},
+
+"Card3":  {
+  "title": "Getting there",
+  "text1": "Address:",
+  "text2": "2500 Esztergom Rozetti Lazar diak street 2.",
+  "text3": "Arriving by car:",
+  "text4": "Parking is free everywhere around the building.",
+  "text5": "Public transport:",
+  "text6": "Take a direct train from Budapest-Nyugati railway station to Esztergom. Trains run frequently, and the journey takes about 1 hour 5 minutes.",
+  "text7": "Alternatively, you can take the Volánbusz service from Újpest-Városkapu Bus Station in Budapest to Esztergom. The journey typically takes about 1 hour 45 minutes."
+}
+
+}
+  
+
+
+}

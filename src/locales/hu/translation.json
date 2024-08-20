@@ -1,0 +1,126 @@
+{
+  "Home":  {
+  "welcome": "ÜDV ITT!",
+  "goodbye": "A TÁVOLI OTTHONOD",
+
+  "Headertry": {
+    "h1": "Üdvözlünk a távoli otthonodban!",
+    "p": "Családi kézben lévő apartmanunk Esztergomban található pár lépésre a fenséges Bazilikától. Hangulatos bérleményünk kellemes menedéket kínál ebben a történelmi városban, ahol a hagyományok és a modern kényelem találkozik."
+  },
+  
+  "Gallery": {
+    "h1": "Galéria",
+    "p": "Fedezze fel képeinket, amely apartmanunk hangulatát mutatja be!",
+    
+    "bedroomtitle": "Hálószoba",
+    "bedroomtext": "Kellemes hálószoba egy pihentető éjszakához.",
+
+    "kitchentitle": "Konyha",
+    "kitchentext": "Konyhasarok a tökéletes recept kiválasztásához.",
+
+    "bathtitle": "Fürdőszoba",
+    "bathtext": "Kellemes és nyugtató árnyalatok zuhanyzás közben"
+  
+  },
+
+  "Connect": {
+    "h1": "Vedd fel velünk a kapcsolatot!",
+    
+    "card1title": "Fordulj hozzánk kérdéseiddel!",
+    "card1text": "Ne felejtsd el álmaid hétvégi otthonát Esztergomban! Csak kérdezz minket, ha kérdésed van, és tervezd tovább a kirándulást.",
+
+    "card2title": "Foglald le az utazásod ma!",
+    "card2text": "Készen állsz, hogy megtapasztald Esztergom varázsát? Biztosítsd tartózkodásod hétvégi otthonunkban, a Bazilika közelében. Felejthetetlen kiruccanás vár rád."
+
+    
+  }
+},
+
+
+"Button":  {
+  "book": "Foglalás",
+  "more": "Képek",
+  "contact": "Kapcsolat",
+  "send": "Küldés",
+  "map": "Térkép",
+  "close": "Bezár"
+},
+
+"Modal": {
+  "title": "Örülünk a megkeresésnek!",
+  "success": "Megkaptuk az üzeneted! Amilyen hamar csak tudunk, válaszolunk.",
+  "fail": "Az üzenetet nem sikerült elküldeni. :( Kérjük próbáld újra hamarosan."
+},
+
+"Nav":  {
+  "home": "Apartman",
+  "gallery": "Galéria",
+  "booking": "Foglalás",
+  "contact": "Kapcsolat"
+  
+},
+
+"Footer":  {
+  "text": "Tapasztalja meg a kényelem és a kaland keverékét otthonában, távol az otthonától!",
+  "address": "Rozetti lázár diák utca 2,",
+  "copy": "Minden jog fenntartva"
+},
+
+"Booking":  {
+  "h1": "Már alig várjuk, hogy haza gyere!",
+
+  "Card1":  {
+  "title": "Az egész Apartman",
+  "from": "Már",
+  "price": "50 Euro /éjtől",
+  "text": "Az 1 hálószobás apartmanban külön nappali, teljesen felszerelt konyha és saját fürdőszoba található. Törölköző és ágynemű biztosított. Az apartman külön bejárattal és ingyenes Wi-Fi-vel rendelkezik."
+},
+
+"Card2":  {
+  "title": "Rólunk",
+  "text": "Fedezz fel egy rejtett gyöngyszemet Esztergom szívében, Magyarországon – kiadó családi tulajdonú hétvégi otthonunk, pár lépésre a fenséges Bazilikától. Hangulatos bérleményünk hangulatos menedéket kínál ebben a történelmi városban, ahol a hagyományok és a modern kényelem találkozik. Akár kulturális örökségeket szeretne felfedezni, akár egyszerűen csak lazítani a Duna mellett, mi azért vagyunk itt, hogy látogatását kivételessé tegyük. Tapasztalja meg Esztergomot, mint egy helyi, otthon, távol az otthonától."
+},
+
+"Card3":  {
+  "title1": "Kiváló lokáció ",
+  "text1": "Mindössze 5 perces sétára található a lenyűgöző esztergomi bazilikától, ahonnan könnyen elérhető az óváros.",
+  "title2": "Nzugalmas környezet",
+  "text2": "Nyugodt környéken található, ideális a pihenéshez és a zöldövezetek kedvelőinek, gyermekes családoknak.",
+  "title3": "Modern berendezés",
+  "text3": "Elegáns és modern stílus. A bútorokra a kényelem és a kellemes hangulat jellemző, pont mint az otthonában."
+
+
+}
+
+},
+
+"Contact":  {
+  
+
+  "Card1":  {
+  "title": "Kapcsolat",
+  "text1": "Apartman Manager:",
+  "text2": "Kecskés Éva",
+  "text3": "Telefonszám:"
+},
+
+"Card2":  {
+  "title": "Írj nekünk üzenetet!",
+  "text1": "Az e-mail címed",
+  "text2": "A neved",
+  "text3": "Üzenet"
+},
+
+"Card3":  {
+  "title": "Megközelítés",
+  "text1": "Pontos cím:",
+  "text2": "2500 Esztergom Rozetti Lázár diák utca 2.",
+  "text3": "Autóval érkezőknek::",
+  "text4": "A parkolás mindenhol ingyenes az épület körül",
+  "text5": "Tömegközlekedéssel:",
+  "text6": "Közvetlen vonattal a Budapest-Nyugati pályaudvarról Esztergomba. A vonatok gyakran járnak, az út körülbelül 1 óra 5 percet vesz igénybe.",
+  "text7": "Alternatív megoldásként a budapesti Újpest-Városkapu autóbusz-pályaudvarról a Volánbusz járattal lehet eljutni Esztergomba. Az utazás általában körülbelül 1 óra 45 percet vesz igénybe."
+}
+
+}
+}
