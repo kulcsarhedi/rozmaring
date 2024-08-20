@@ -6,7 +6,9 @@
   }
   @import './src/components/mixins.scss';
   
-
+  * {
+    box-sizing: border-box; // Ensure padding and border are included in element's total width and height
+}
 
 body {
     background-color: $background-color;
@@ -14,6 +16,8 @@ body {
     font-family: 'Higuen Elegant Serif', serif;
     color: $everything-beige;
     overflow-x: hidden; // Prevent horizontal scrolling
+    margin: 0;
+    padding: 0;
   }
   
   #navbar {

@@ -11,6 +11,7 @@
     width: 100vw;
     position: relative;
     overflow: hidden; // Ensure that the blurred background doesn't overflow
+    overflow-x: hidden;
 
     // Use a pseudo-element to apply the blurred background
     &::before {
@@ -67,10 +68,11 @@
 }
 
 #text {
-    // Default styles for #text can be added here
+    padding-top: 20px;
+    padding-right: 8px;
 
     @media (min-width: 700px) {
-        padding-top: 20px;   /* Proper unit for padding-top */
+        padding-top: 30px;   /* Proper unit for padding-top */
              /* Proper unit for margin-top */
     }
 

@@ -29,7 +29,7 @@ const Navbar = () => {
       <div id="logos" className=" ms-5">
         <a className="navbar-brand" href="/#">
           <img className="logo" src={logo} alt="Logo" width="300" height="110" />
-          <img className="logo2" src={logo2} alt="Logo2" width="60" height="60 " />
+          <img className="logo2" src={logo2} alt="L" width="60" height="60 " />
         </a>
       </div>
       <button
