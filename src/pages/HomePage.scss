@@ -73,6 +73,11 @@
         padding-top: 20px;   /* Proper unit for padding-top */
              /* Proper unit for margin-top */
     }
+
+    @media (min-width: 1000px) {
+        padding-top: 40px;   /* Proper unit for padding-top */
+             /* Proper unit for margin-top */
+    }
 }
 
 
