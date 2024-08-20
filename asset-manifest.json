@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39c41d22.css",
-    "main.js": "/static/js/main.bca0b407.js",
+    "main.css": "/static/css/main.74e3da81.css",
+    "main.js": "/static/js/main.eeceba36.js",
     "static/media/pexels-dmitry-zvolskiy-2082087.jpg": "/static/media/pexels-dmitry-zvolskiy-2082087.21ae25826dd228172598.jpg",
     "static/media/agy_fektetett.jpeg": "/static/media/agy_fektetett.c745f6491570b7158d8a.jpeg",
     "static/media/szoba_felulrol.jpeg": "/static/media/szoba_felulrol.72c7a8339dc9f27c2c1f.jpeg",
@@ -23,13 +23,13 @@
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/Higuen Serif.otf": "/static/media/Higuen Serif.98720178406c0848a634.otf",
     "static/media/logo3-removebg-preview.png": "/static/media/logo3-removebg-preview.75066cab3a741f3bf72b.png",
-    "static/media/Névtelen-removebg-preview.png": "/static/media/Névtelen-removebg-preview.f7eb8e3ba32e067a080d.png",
+    "static/media/singlelogo-removebg-preview.png": "/static/media/singlelogo-removebg-preview.f7eb8e3ba32e067a080d.png",
     "index.html": "/index.html",
-    "main.39c41d22.css.map": "/static/css/main.39c41d22.css.map",
-    "main.bca0b407.js.map": "/static/js/main.bca0b407.js.map"
+    "main.74e3da81.css.map": "/static/css/main.74e3da81.css.map",
+    "main.eeceba36.js.map": "/static/js/main.eeceba36.js.map"
   },
   "entrypoints": [
-    "static/css/main.39c41d22.css",
-    "static/js/main.bca0b407.js"
+    "static/css/main.74e3da81.css",
+    "static/js/main.eeceba36.js"
   ]
 }
