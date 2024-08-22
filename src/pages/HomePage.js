@@ -36,7 +36,7 @@ const Home = () => {
         <section id="hero" className=" py-3 text-center">
         <div id="text" className=" container align-items-center ">
         <p className="mx-5 my-3 mt-5">{t('Home.welcome')}</p>
-            <h1 className="mx-5 fw-bold">Rozmaring</h1>
+            <h1 className="mx-2 fw-bold">Rozmaring</h1>
             <p className="mx-5 my-3 mt-3">{t('Home.goodbye')}</p>
             <div className="d-flex flex-column align-items-center">
             <Link to="/Booking">
