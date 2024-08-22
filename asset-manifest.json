@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c123d9e9.css",
-    "main.js": "/static/js/main.e5c742ff.js",
+    "main.css": "/static/css/main.a2302d3d.css",
+    "main.js": "/static/js/main.3fafa89f.js",
     "static/media/pexels-dmitry-zvolskiy-2082087.jpg": "/static/media/pexels-dmitry-zvolskiy-2082087.21ae25826dd228172598.jpg",
     "static/media/agy_fektetett.jpeg": "/static/media/agy_fektetett.c745f6491570b7158d8a.jpeg",
     "static/media/szoba_felulrol.jpeg": "/static/media/szoba_felulrol.72c7a8339dc9f27c2c1f.jpeg",
@@ -9,6 +9,7 @@
     "static/media/3szoba_sotet.jpeg": "/static/media/3szoba_sotet.22459be5925c3c3f5e3e.jpeg",
     "static/media/konyhaszekreny.jpeg": "/static/media/konyhaszekreny.6a2100362275ffcac6f5.jpeg",
     "static/media/konyhapult.jpeg": "/static/media/konyhapult.d0bc1788e58e0ddfa96a.jpeg",
+    "static/media/5kave_hatulrol.jpeg": "/static/media/5kave_hatulrol.33cb8dba3e64b2fc36f8.jpeg",
     "static/media/konyha.jpeg": "/static/media/konyha.b5dc7cc9071f88be7804.jpeg",
     "static/media/szoba.jpeg": "/static/media/szoba.31261122bddbe48e9d64.jpeg",
     "static/media/kislampa.jpeg": "/static/media/kislampa.113449cc7eb5f8f77f0e.jpeg",
@@ -17,6 +18,7 @@
     "static/media/kave_nagy.jpeg": "/static/media/kave_nagy.69acae80ec70b559a558.jpeg",
     "static/media/2kislampa_agy.jpeg": "/static/media/2kislampa_agy.9991fb76018b24ed5380.jpeg",
     "static/media/5kave_terkep.jpeg": "/static/media/5kave_terkep.a5ee34c27fe086b4e123.jpeg",
+    "static/media/olvasas.jpeg": "/static/media/olvasas.c5cc1ab082fa8df44b2e.jpeg",
     "static/media/furdo_zuhany.jpeg": "/static/media/furdo_zuhany.cc33df09f9843579eeac.jpeg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/4konyhapult_tanulas.jpeg": "/static/media/4konyhapult_tanulas.6401e9039d3ba22bb0bc.jpeg",
@@ -25,11 +27,11 @@
     "static/media/logo3-removebg-preview.png": "/static/media/logo3-removebg-preview.75066cab3a741f3bf72b.png",
     "static/media/singlelogo-removebg-preview.png": "/static/media/singlelogo-removebg-preview.f7eb8e3ba32e067a080d.png",
     "index.html": "/index.html",
-    "main.c123d9e9.css.map": "/static/css/main.c123d9e9.css.map",
-    "main.e5c742ff.js.map": "/static/js/main.e5c742ff.js.map"
+    "main.a2302d3d.css.map": "/static/css/main.a2302d3d.css.map",
+    "main.3fafa89f.js.map": "/static/js/main.3fafa89f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c123d9e9.css",
-    "static/js/main.e5c742ff.js"
+    "static/css/main.a2302d3d.css",
+    "static/js/main.3fafa89f.js"
   ]
 }
