@@ -41,7 +41,7 @@ const Navbar = () => {
         style={{ borderColor: 'white', marginRight: '10px' }}
         onClick={toggleNavbar} // Toggle the menu on button click
       >
-        <span className="navbar-toggler-icon" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M3 12.5a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H3.5a.5.5 0 0 1-.5-.5zM2.5 8a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-1-3.5a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E")` }}
+        <span className="navbar-toggler-icon " style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M3 12.5a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H3.5a.5.5 0 0 1-.5-.5zM2.5 8a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-1-3.5a.5.5 0 0 1 .5-.5H12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E")` }}
         ></span>
       </button>
       <div className={`collapse navbar-collapse justify-content-end ms-auto ${isOpen ? 'show' : ''}`} id="navbarNav">

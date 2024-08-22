@@ -67,18 +67,18 @@
 },
 
 "Booking":  {
-  "h1": "Már alig várjuk, hogy haza gyere!",
+  "h1": "Már alig várjuk, hogy gyere!",
 
   "Card1":  {
   "title": "Az egész Apartman",
-  "from": "Már",
+  "from": "Már két főre",
   "price": "50 Euro /éjtől",
-  "text": "Az 1 hálószobás apartmanban külön nappali, teljesen felszerelt konyha és saját fürdőszoba található. Törölköző és ágynemű biztosított. Az apartman külön bejárattal és ingyenes Wi-Fi-vel rendelkezik."
+  "text": "Az 1 hálószobás apartmanban külön nappali, teljesen felszerelt konyha és saját fürdőszoba található. Törölköző és ágynemű biztosított. Az apartman külön bejárattal és ingyenes Wi-Fi-vel rendelkezik. Megfelelő 2 vagy 4 főre is."
 },
 
 "Card2":  {
   "title": "Rólunk",
-  "text": "Fedezz fel egy rejtett gyöngyszemet Esztergom szívében, Magyarországon – kiadó családi tulajdonú hétvégi otthonunk, pár lépésre a fenséges Bazilikától. Hangulatos bérleményünk hangulatos menedéket kínál ebben a történelmi városban, ahol a hagyományok és a modern kényelem találkozik. Akár kulturális örökségeket szeretne felfedezni, akár egyszerűen csak lazítani a Duna mellett, mi azért vagyunk itt, hogy látogatását kivételessé tegyük. Tapasztalja meg Esztergomot, mint egy helyi, otthon, távol az otthonától."
+  "text": "Fedezz fel egy rejtett gyöngyszemet Esztergom szívében, Magyarországon – kiadó családi tulajdonú hétvégi otthonunk, pár lépésre a fenséges Bazilikától. Hangulatos bérleményünk kiváló menedéket kínál ebben a történelmi városban, ahol a hagyományok és a modern kényelem találkozik. Akár kulturális örökségeket szeretne felfedezni, akár egyszerűen csak lazítani a Duna mellett, mi azért vagyunk itt, hogy látogatását kivételessé tegyük. Tapasztalja meg Esztergomot, mint egy helyi, otthon, távol az otthonától."
 },
 
 "Card3":  {
